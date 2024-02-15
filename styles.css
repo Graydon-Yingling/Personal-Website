@@ -38,6 +38,19 @@
   width: 100%;
 }
 
+.btn {
+  background-color: white;
+  font-family: var(--sans);
+  color: var(--blue);
+}
+
+.portfolio-btn {
+  border: solid 2px white;
+  background: none;
+  padding: 7px 0px 7px 0px;
+  color: white;
+}
+
 .display-5 {
   font-family: var(--cursive);
   letter-spacing: 3px;
