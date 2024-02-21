@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" lang="english" />
+    <meta name="description" content="Project Portfolio" />
+    <meta name="author" content="Graydon Yingling" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="px-4 py-5 text-center">
+        <h1 class="headline display-5 fw-bold text-body-emphasis mb-4">
+          Graydon Yingling's Portfolio
+        </h1>
+        <div class="h-des col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            This is a showcase of a few of my favorite and best projects that I
+            have created. All of them have been made strictly using HTML5 and
+            CSS3. I have since moved on to Bootstrap, however the only two
+            projects I have made using the framework are this portfolio and the
+            personal site which is linked under this text.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a
+              href="./assets/images/Graydon_Yingling_Resume.pdf"
+              target="_blank"
+            >
+              <button type="button" class="btn btn-light btn-lg px-3">
+                Résumé
+              </button>
+            </a>
+            <a
+              href="https://graydon-yingling.github.io/Personal-Website/"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="btn-2 btn btn-outline-light btn-lg px-3 gap-3 mx-4"
+              >
+                Personal Website
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mid">
+      <div class="mid-c container">
+        <div class="row my-4">
+          <div class="col-12 col-xl-5 mb-5">
+            <a href="./10.3 Mondrian Project/index.html" target="_blank">
+              <img src="./assets/images/Mondrian Art.png" alt="mondrian art" />
+            </a>
+          </div>
+          <div class="mid-t col-12 col-xl-7">
+            <h2 class="pb-4">Mondrian Art Project</h2>
+            <h3>
+              This is my recreation of the one of Mondrian's art pieces using
+              the CSS Grid. It consists of a black background with various
+              colored tiles placed in a way to mimick a simple art piece made by
+              Piet Mondrian.
+            </h3>
+          </div>
+        </div>
+        <hr class="pb-5" />
+        <div class="row mb-4">
+          <div class="col-12 col-xl-5 mb-5">
+            <a
+              href="./9.4 Flexbox Pricing Table Project/index.html"
+              target="_blank"
+            >
+              <img
+                src="./assets/images/Pricing Plan.png"
+                alt="pricing plan mock"
+              />
+            </a>
+          </div>
+          <div class="mid-t col-12 col-xl-7">
+            <h2 class="pb-4">Pricing Plan Project</h2>
+            <h3>
+              This project demonstrates the use of CSS Flexbox in order to
+              center various types of elements
+            </h3>
+          </div>
+        </div>
+        <hr class="pb-5" />
+        <div class="row mb-4">
+          <div class="col-12 col-xl-5 mb-5">
+            <a href="./8.4 Website Project/index.html" target="_blank">
+              <img src="./assets/images/Goal Site.png" alt="goals website" />
+            </a>
+          </div>
+          <div class="mid-t col-12 col-xl-7">
+            <h2 class="pb-4">Goals Website</h2>
+            <h3>
+              This website is my first use of responsive practices using CSS
+              Flexbox and the wrap property of elements. The goals posted are
+              still my current goals.
+            </h3>
+          </div>
+        </div>
+        <hr class="pb-5" />
+        <div class="row mb-4">
+          <div class="col-12 col-xl-5 mb-5">
+            <a href="./6.4 Motivation Meme Project/index.html" target="_blank">
+              <img src="./assets/images/Meme.png" alt="meme" />
+            </a>
+          </div>
+          <div class="mid-t col-12 col-xl-7">
+            <h2 class="pb-4">Motivational Meme Project</h2>
+            <h3>
+              This project is one of my favorites. Although it may not be much,
+              I love the simplicity of it. I believe it to be one of my best
+              jokes I've made as well.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <p class="col-md-4 mb-0 text-body-secondary">
+            © 2024 Graydon M. Yingling
+          </p>
+
+          <a
+            href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-1 text-body-secondary">Home</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

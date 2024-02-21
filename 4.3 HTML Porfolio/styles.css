@@ -1,0 +1,73 @@
+:root {
+  --white: #f9f7f7;
+  --light-blue: #dbe2ef;
+  --blue: #5396e9;
+  --dark-blue: #134a8a;
+
+  --cursive: "Bad Script", cursive;
+  --sans: "Noto Sans", sans-serif;
+}
+
+.hero,
+.footer {
+  background: linear-gradient(
+    300deg,
+    var(--dark-blue),
+    var(--blue),
+    var(--light-blue)
+  );
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.headline {
+  font-family: var(--cursive);
+}
+
+.h-des {
+  font-family: var(--sans);
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.mid-t {
+  border: solid white 1px;
+  padding: 30px 30px 0px 30px;
+  display: inline-block;
+}
+
+h2 {
+  font-family: var(--cursive);
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: var(--sans);
+  color: var(--blue);
+}
+
+.mid-c {
+  max-width: 80%;
+}
