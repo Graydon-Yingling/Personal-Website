@@ -40,13 +40,9 @@
   font-family: var(--sans);
 }
 
-.row {
-  padding-bottom: 50px;
-}
-
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 5px;
   display: inline-block;
 }
@@ -70,4 +66,15 @@ h3 {
 
 .mid-c {
   max-width: 80%;
+}
+
+@media (max-width: 1200px) {
+  img {
+    margin-bottom: 25px;
+    height: auto;
+  }
+
+  h2 {
+    margin-top: 25px;
+  }
 }
